@@ -1,0 +1,14 @@
+.btn-warning {
+  background: linear-gradient(120deg, #60a4f4, #2a73dd);
+  border-color: #60a4f4;
+  transition: all 0.5s;
+  &:hover {
+    border: none;
+    opacity: 0.75;
+  }
+}
+
+.btn-info,
+.btn-danger {
+  font-size: 10px;
+}

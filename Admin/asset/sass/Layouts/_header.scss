@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #eee;
+  .nav-link {
+    color: black;
+  }
+}
+.navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+  .navbar-toggler-icon {
+    color: black;
+  }
+  
+}
+.nav-item {
+  .nav-link {   
+      color: black; 
+      font-size: 15px; 
+      i {
+        padding-right: 10px;
+      } 
+  }
+}

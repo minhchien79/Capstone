@@ -1,0 +1,56 @@
+.cardPhone {
+  box-shadow: 6px 6px 12px $color-white-2, -6px -6px 12px $color-white-3;
+  background-color: $color-white-1;
+  border: none;
+  padding: $pd-1 + 5;
+  margin-bottom: $mg-1;
+  .cardPhone_img {
+    margin: 10px 0;
+    border-radius: $bd-2;
+    img {
+      margin: 8px 0 0 0;
+    }
+  }
+  &:hover {
+    img {
+      margin: 0 0 8px 0;
+      box-shadow: 6px 6px 12px $color-white-2, -6px -6px 12px $color-white-3;
+      transition: all 300ms ease-in-out;
+    }
+  }
+  .cardPhone__title {
+    @include styleText(20px, $fw-3, $color-black-0);
+    cursor: pointer;
+    &:hover {
+      color: $color-blue-2;
+      transition: all 0.3s;
+    }
+  }
+  .cardPhone__title_1 {
+    color: #e83a45;
+    font-weight: $fw-3;
+  }
+  .cardPhone__text {
+    @include styleText($fs-1, $fw-1, $color-blue-1);
+    line-height: 19px;
+   p{
+    color: #333;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    &::before {
+        content: '●';
+        margin-right: 4px;
+        margin-bottom: 2px;
+        margin-top: -1px;
+        color: #333;
+        font-size: 10px;
+    }
+   }
+
+  }
+  .cardPhone__rating {
+    color: $color-yellow-1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #656774;
+  background-color: #f5f9fe;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d365e;
+  letter-spacing: 0.015rem;
+}
+
+.btn-warning {
+  background: linear-gradient(120deg, #60a4f4, #2a73dd);
+  border-color: #60a4f4;
+  transition: all 0.5s;
+}
+.btn-warning:hover {
+  border: none;
+  opacity: 0.75;
+}
+
+.btn-info,
+.btn-danger {
+  font-size: 10px;
+}
+
+.navbar {
+  background-color: #eee;
+}
+.navbar .nav-link {
+  color: black;
+}
+
+.navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
+.navbar-toggler .navbar-toggler-icon {
+  color: black;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-size: 15px;
+}
+.nav-item .nav-link i {
+  padding-right: 10px;
+}
+
+.table .text-white {
+  background-color: #60a4f4;
+  border: #60a4f4;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table thead th {
+  text-align: center;
+}
+
+.invalid-form {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

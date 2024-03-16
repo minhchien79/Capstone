@@ -1,0 +1,101 @@
+.footerPhone {
+  background-color: #121212;
+  .linklist_footer_title {
+    color: #fff;
+    font-weight: 700;
+  }
+  h6 {
+    text-transform: uppercase;
+  }
+  .link_list {
+    list-style: none;
+    a {
+      position: relative;
+      font-size: 14px;
+      color: #fff;
+      line-height: 1.7;
+      margin-top: 6px;
+      &:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 0.2s;
+      }
+    }
+  }
+  .linklist_footer_title {
+    color: #fff;
+    font-weight: 700;
+  }
+  .contact_list {
+    i {
+      margin-right: 10px;
+    }
+    li {
+      list-style: none;
+      margin-top: 16px;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      font-size: 14px;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 0.2s;
+      }
+    }
+    .contact_address {
+      P {
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.5;
+        font-size: 14px;
+        margin: 0;
+      }
+      i {
+        color: #fff;
+      }
+    }
+  }
+  .social_menu {
+    li {
+      list-style: none;
+      margin-top: 6px;
+    }
+    a {
+      position: relative;
+      font-size: 14px;
+      color: #fff;
+      line-height: 1.7;
+      &:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 0.2s;
+      }
+    }
+  }
+  .footer_bottom_pannel {
+    margin-top: 60px;
+    .container {
+      border-top:1px solid #fff;
+      padding-top: 19px;
+      padding-bottom: 20px;
+      .footer_copyright {
+        font-size: 12px;
+        line-height: 1.23;
+        color: #fff;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+      }
+    }
+    .footer_payments {
+        img {
+            margin-left: 6px;
+            filter: grayscale(1);
+        }
+    }
+  }
+}
