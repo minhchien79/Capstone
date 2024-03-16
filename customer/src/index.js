@@ -21,7 +21,7 @@ function renderUI(data) {
         <div class="col-12 col-md-6 col-6">
         <div class="card cardPhone">
             <div class="cardPhone_img">
-                <img src="./asset/img/${product.img}"
+                <img src="./customer/asset/img/${product.img}"
                     class="card-img-top img-fluid" alt="...">
             </div>
             <div class="card-body">
